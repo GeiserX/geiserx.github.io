@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="docs/images/banner.svg" alt="geiserx.github.io banner" width="900"/>
+</p>
+
 # geiserx.github.io
 
 This user site only redirects to [cv.geiser.cloud](https://cv.geiser.cloud/), where the page and CV live (repository [GeiserX/cv](https://github.com/GeiserX/cv)).
