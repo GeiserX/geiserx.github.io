@@ -10,4 +10,4 @@ You will get an answer within 72 hours. Include what you found, how to reproduce
 
 ## Supported versions
 
-Only the latest release receives security fixes.
+This repo has no releases. Only the `main` branch, which GitHub Pages serves, receives security fixes.
