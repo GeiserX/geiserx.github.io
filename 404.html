@@ -1,0 +1,18 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Page not found</title>
+<meta name="robots" content="noindex">
+<script>
+  // Personal-Genome-Pipeline was renamed OwnGenome: send its old docs links to the same page there.
+  var p = location.pathname;
+  if (p.indexOf("/Personal-Genome-Pipeline/") === 0 || p === "/Personal-Genome-Pipeline") {
+    location.replace("https://geiserx.github.io/OwnGenome/" + p.replace(/^\/Personal-Genome-Pipeline\/?/, "") + location.search + location.hash);
+  }
+</script>
+</head>
+<body>
+<p>Page not found. <a href="https://geiserx.github.io/">https://geiserx.github.io/</a></p>
+</body>
+</html>
